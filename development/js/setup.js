@@ -5,13 +5,13 @@ console.log(cp);
 
 // List of scripts to load from js/objects
 //cp.load.objects = ['square', 'square-evil', 'key-test'];
-cp.load.objects = ['anim-test'];
+cp.load.objects = ['anim-char'];
 cp.debug.active = true;
 
 // init(width, height, run onLoad function)
 cp.core.init(500, 500, function() {
     cp.load
-    cp.game.spawn('AnimTest');
+    cp.game.spawn('AnimCircle');
     //cp.game.spawn('KeyTest');
     //cp.game.spawn('Square', 300, 50);
     //cp.game.spawn('SquareEvil', 100, 100);
